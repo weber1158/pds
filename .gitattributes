@@ -2,4 +2,5 @@
 *.mlx linguist-language=MATLAB
 
 # Let example files count towards language statistics
-examples/* linguist-documentation=false
+main/examples/*.py linguist-documentation=false
+main/examples/*.r linguist-documentation=false
