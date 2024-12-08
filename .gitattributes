@@ -1,2 +1,5 @@
 # Treat .mlx files as MATLAB code for the language statistics
 *.mlx linguist-language=MATLAB
+
+# Let example files count towards language statistics
+examples/* linguist-documentation=false
