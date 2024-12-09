@@ -1,2 +1,3 @@
-# Treat .mlx files as MATLAB code for the language statistics
+# Treat .mlx and .mlapp files as MATLAB code for the language statistics
 *.mlx linguist-language=MATLAB
+*.mlapp linguist-language=MATLAB
