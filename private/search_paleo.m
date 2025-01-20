@@ -29,8 +29,6 @@ API = [api_base api_required_parameters dataTypeId];
 
 % Get JSON file
 options = weboptions('Timeout', 25);
-url_process = webread(API,options);
-webread_text = jsonencode(url_process);
-JSON = jsondecode(webread_text);
+JSON = webread(API,options);
 
 end
