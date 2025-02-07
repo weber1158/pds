@@ -1,3 +1,7 @@
 # Treat .mlx and .mlapp files as MATLAB code for the language statistics
 *.mlx linguist-language=MATLAB
 *.mlapp linguist-language=MATLAB
+# Hide Python, Julia, and R from the language statistics
+*.py linguist-vendored
+*.jl linguist-vendored
+*.r linguist-vendored
